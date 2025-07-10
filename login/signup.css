@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #e6f0ff;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+}
+
+.form-section {
+  width: 50%;
+  padding: 40px;
+}
+
+.form-section img {
+  width: 60px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.form-section h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.form-section p {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-section button {
+  width: 100%;
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #1a237e;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form-section .login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.form-section .login-link a {
+  color: #1a237e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.info-section {
+  width: 50%;
+  background-color: #2962ff;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-section h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-section ul li {
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.info-section ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: white;
+}

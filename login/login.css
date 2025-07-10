@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f2f4f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.form-container {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 50px 40px;
+}
+
+.form-container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-container .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.form-container .logo-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.form-container p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #666;
+}
+
+label {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-container a.forgot {
+  display: block;
+  text-align: right;
+  font-size: 12px;
+  color: #3b5fcb;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1c2e92;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.register a {
+  color: #3b5fcb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.info-container {
+  flex: 1;
+  background-color: #2c61db;
+  color: white;
+  padding: 60px 40px;
+}
+
+.info-container h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.info-container p {
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.info-feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-feature::before {
+  content: '📘';
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.info-feature:nth-child(3)::before {
+  content: '🗓️';
+}
+
+.info-feature:nth-child(4)::before {
+  content: '📝';
+}

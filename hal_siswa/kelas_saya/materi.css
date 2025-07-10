@@ -1,0 +1,80 @@
+:root {
+  --primary: #4a90e2;
+  --accent: #00bfa5;
+  --text-dark: #333;
+  --bg-light: #f7f9fc;
+  --border: #e0e0e0;
+  --radius: 12px;
+  --shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-light);
+  margin: 0;
+  padding: 0;
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.materi-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin-bottom: 24px;
+  border-left: 6px solid var(--accent);
+}
+
+.materi-header {
+  background: #e0f7f4;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.materi-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.materi-body {
+  padding: 20px 24px;
+  background: #fff;
+}
+
+.materi-info p {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0;
+}
+
+.konten-card {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  padding: 24px;
+}
+
+.konten-body p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.konten-body a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.konten-body a:hover {
+  text-decoration: underline;
+}
